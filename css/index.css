@@ -170,3 +170,35 @@ h4{
     width: 60px;
     height: 60px;
 }
+.formula_title{
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.calculator{
+    width: 80%;
+    display: flex;
+    margin: 100px auto 20px;
+    background: #68ccae;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.calculator_values{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+input, select{
+    width: 300px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    border: none;
+}

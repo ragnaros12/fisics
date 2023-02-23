@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+<div class="container main">
+    <div class="header">
+        <img src="images/logo.png" class="logo">
+        <div class="header_wrapper">
+            <a class="header_link" href="./index.html">Главная</a>
+            <a class="header_link" href="#">Уроки</a>
+            <a class="header_link" href="./formuls.html">Формулы</a>
+        </div>
+    </div>
+    <div></div>
+    <div class="title">
+        <h1>Проект</h1>
+        <h3 class="subtitle">Мы крутые</h3>
+    </div>
+    <img id="circle" src="images/circle.png">
+</div>
+<div class="container">
+    <h2> Формулы </h2>
+    <div class="calculator">
+        <h3 class="formula_title">Обьем</h3>
+        <div class="calculator_values">
+            <input type="number" name="volume_number" id="volume_number" onchange="onChange()">
+            <select name="volume_meaning1" id="volume_meaning1" onchange="onChange()">
+                <option value="9">Кубический миллиметр</option>
+                <option value="6">Кубический сантиметр</option>
+                <option value="3">Кубический дециметр</option>
+                <option value="0">Кубический метр</option>
+                <option value="3">Литр</option>
+                <option value="6">Миллилитр</option>
+            </select>
+            <input type="text" readonly id="result"/>
+            <select name="volume_meaning2" id="volume_meaning2" onchange="onChange()">
+                <option value="9">Кубический миллиметр</option>
+                <option value="6">Кубический сантиметр</option>
+                <option value="3">Кубический дециметр</option>
+                <option value="0">Кубический метр</option>
+                <option value="3">Литр</option>
+                <option value="6">Миллилитр</option>
+            </select>
+
+        </div>
+    </div>
+</div>
+<div class="container footer">
+    <img src="images/logo.png" class="logo logo_footer">
+    <div class="header_wrapper footer_wrapper">
+        <a class="header_link" href="#">Главная</a>
+        <a class="header_link" href="#">Уроки</a>
+        <a class="header_link" href="#">Формулы</a>
+    </div>
+    <div class="header_wrapper links">
+        <a class="header_link" href="https://t.me/+mu8TZ81DNg44ZGRi"><img src="images/telegram.png"></a>
+        <a class="header_link" href="whatsapp://send?abid=+79156471885&text="><img src="images/whatsapp.png"></a>
+        <a class="header_link" href="mailto:khlopovartem4321@gmail.com"><img src="images/gmail.png"></a>
+    </div>
+</div>
+</body>
+</html>
