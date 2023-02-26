@@ -176,7 +176,7 @@ h4{
     text-align: left;
 }
 
-.calculator{
+.calculator_volume{
     width: 80%;
     display: flex;
     margin: 100px auto 20px;
@@ -185,7 +185,7 @@ h4{
     overflow: hidden;
     border-radius: 10px;
 }
-.calculator_values{
+.calculator_values_volume{
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -201,4 +201,123 @@ input, select{
     outline: none;
     font-size: 20px;
     border: none;
+}
+
+.calculator_square{
+    width: 80%;
+    display: flex;
+    margin: 100px auto 20px;
+    background: #68ccae;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.calculator_values_square{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.calculator_speed{
+    width: 80%;
+    display: flex;
+    margin: 100px auto 20px;
+    background: #68ccae;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.calculator_values_speed{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.calculator_temp{
+    width: 80%;
+    display: flex;
+    margin: 100px auto 20px;
+    background: #68ccae;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.calculator_values_temp{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.lessons{
+    flex-direction: column;
+}
+.lesson_item:first-child{
+    margin-top: 120px;
+}
+@keyframes animation_show {
+    0%{
+        height: 100px;
+    }
+    100%{
+        height: 500px;
+    }
+}
+@keyframes animation_hide {
+    100%{
+        height: 100px;
+    }
+    0%{
+        height: 500px;
+    }
+}
+.lesson_item_enable{
+    animation: animation_show;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+.lesson_item_disable{
+    animation: animation_hide;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+.lesson_item:hover{
+    cursor: pointer;
+}
+.lesson_item{
+    width: 90%;
+    background: antiquewhite;
+    margin-bottom: 20px;
+    margin-right: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: auto;
+    height: 100px;
+}
+.lesson_item_title{
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+}
+.title_lesson{
+    margin-left: 20px;
+    margin-right: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.more{
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.lesson_video{
+    margin-left: 20px;
+}
+.lesson_text{
+    margin-top: 10px;
+    margin-left: 20px;
 }

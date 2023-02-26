@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link type="text/css" rel="stylesheet" href="css/index.css">
+    <link type="text/css" rel="stylesheet" href="css/formuls.css">
     <script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
@@ -12,7 +13,7 @@
         <img src="images/logo.png" class="logo">
         <div class="header_wrapper">
             <a class="header_link" href="./index.html">Главная</a>
-            <a class="header_link" href="#">Уроки</a>
+            <a class="header_link" href="./lessons.html">Уроки</a>
             <a class="header_link" href="./formuls.html">Формулы</a>
         </div>
     </div>
@@ -23,13 +24,14 @@
     </div>
     <img id="circle" src="images/circle.png">
 </div>
+
 <div class="container">
     <h2> Формулы </h2>
-    <div class="calculator">
+    <div class="calculator_volume">
         <h3 class="formula_title">Обьем</h3>
-        <div class="calculator_values">
-            <input type="number" name="volume_number" id="volume_number" onchange="onChange()">
-            <select name="volume_meaning1" id="volume_meaning1" onchange="onChange()">
+        <div class="calculator_values_volume">
+            <input type="number" name="volume_number" id="volume_number" onchange="onChange_volume()">
+            <select name="volume_meaning1" id="volume_meaning1" onchange="onChange_volume()">
                 <option value="9">Кубический миллиметр</option>
                 <option value="6">Кубический сантиметр</option>
                 <option value="3">Кубический дециметр</option>
@@ -37,8 +39,8 @@
                 <option value="3">Литр</option>
                 <option value="6">Миллилитр</option>
             </select>
-            <input type="text" readonly id="result"/>
-            <select name="volume_meaning2" id="volume_meaning2" onchange="onChange()">
+            <input type="text" readonly id="result_volume"/>
+            <select name="volume_meaning2" id="volume_meaning2" onchange="onChange_volume()">
                 <option value="9">Кубический миллиметр</option>
                 <option value="6">Кубический сантиметр</option>
                 <option value="3">Кубический дециметр</option>
@@ -49,7 +51,81 @@
 
         </div>
     </div>
+
+    <div class="calculator_square">
+        <h3 class="formula_title">Площадь</h3>
+        <div class="calculator_values_square">
+            <input type="number" name="square_number" id="square_number" onchange="onChange_square()">
+            <select name="square_meaning1" id="square_meaning1" onchange="onChange_square()">
+                <option value="12">Квадратный миллиметр</option>
+                <option value="10">Квадратный сантиметр</option>
+                <option value="8">Квадратный дециметр</option>
+                <option value="6">Квадратный метр</option>
+                <option value="0">Квадратный километр</option>
+                <option value="2">Гектар</option>
+                <option value="Акр">Акр</option>
+            </select>
+            <input type="text" readonly id="result_square"/>
+            <select name="square_meaning2" id="square_meaning2" onchange="onChange_square()">
+                <option value="12">Квадратный миллиметр</option>
+                <option value="10">Квадратный сантиметр</option>
+                <option value="8">Квадратный дециметр</option>
+                <option value="6">Квадратный метр</option>
+                <option value="0">Квадратный километр</option>
+                <option value="2">Гектар</option>
+                <option value="Акр">Акр</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="calculator_speed">
+        <h3 class="formula_title">Скорость</h3>
+        <div class="calculator_values_speed">
+            <input type="number" name="speed_number" id="speed_number" onchange="onChange_speed()">
+            <select name="speed_meaning1" id="speed_meaning1" onchange="onChange_speed()">
+                <option value="1">Метр в секунду</option>
+                <option value="3.6">Километр в час</option>
+                <option value="0.001">Километр в секунду</option>
+            </select>
+            <input type="text" readonly id="result_speed"/>
+            <select name="speed_meaning2" id="speed_meaning2" onchange="onChange_speed()">
+                <option value="1">Метр в секунду</option>
+                <option value="3.6">Километр в час</option>
+                <option value="0.001">Километр в секунду</option>
+            </select>
+
+        </div>
+    </div>
+
+    <div class="calculator_temp">
+        <h3 class="formula_title">Температура</h3>
+        <div class="calculator_values_temp">
+            <input type="number" name="temp_number" id="temp_number" onchange="onChange_temp()">
+            <select name="temp_meaning1" id="temp_meaning1" onchange="onChange_temp()">
+                <option value="C">Градус Цельсия</option>
+                <option value="F">Градус Фаренгейта</option>
+                <option value="K">Кельвин</option>
+            </select>
+            <input type="text" readonly id="result_temp"/>
+            <select name="temp_meaning2" id="temp_meaning2" onchange="onChange_temp()">
+                <option value="C">Градус Цельсия</option>
+                <option value="F">Градус Фаренгейта</option>
+                <option value="K">Кельвин</option>
+            </select>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
 </div>
+
 <div class="container footer">
     <img src="images/logo.png" class="logo logo_footer">
     <div class="header_wrapper footer_wrapper">
