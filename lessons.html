@@ -9,30 +9,72 @@
 </head>
 <body>
 <div class="container main">
-  <div class="header">
-    <img src="images/logo.png" class="logo">
-    <div class="header_wrapper">
-      <a class="header_link" href="./index.html">Главная</a>
-      <a class="header_link" href="./lessons.html">Уроки</a>
-      <a class="header_link" href="./formuls.html">Формулы</a>
+    <div class="header">
+        <img src="images/logo.png" class="logo">
+        <div class="header_wrapper">
+            <a class="header_link" href="./index.html">Главная</a>
+            <div id="lesson_dropdown_container">
+                <a class="header_link" id="lessons" href="./lessons.html">Уроки</a>
+                <div id="lesson_dropdown">
+                    <a href="./lessons.html#kinematiks">Кинематика</a>
+                    <a href="./lessons.html#dinamika">Динамика</a>
+                    <a href="./lessons.html#kinematiks">Статика</a>
+                    <a href="./lessons.html#kinematiks">Ядерная физика</a>
+                </div>
+            </div>
+            <a class="header_link" href="./formuls.html">Формулы</a>
+        </div>
+        <img src="images/menu.png" id="burger_button">
     </div>
-  </div>
-  <div></div>
-  <div class="title">
-    <h1>Проект</h1>
-    <h3 class="subtitle">Мы крутые</h3>
-  </div>
-  <img id="circle" src="images/circle.png">
+    <div></div>
+    <div class="title">
+        <h1>Проект</h1>
+        <h3 class="subtitle">Мы крутые</h3>
+    </div>
+    <img id="circle" src="images/circle.png">
 </div>
 <div class="container lessons">
-  <div class="lesson_item">
-      <div class="lesson_item_title">
-          <img class="more" src="images/circle.png">
-          <h2 class="title_lesson">Заголовок</h2>
-      </div>
-      <iframe class="lesson_video" width="560" height="315" src="https://www.youtube.com/embed/2JGbRnJfG0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <div class="lesson_text">фывфывфыв</div>
-  </div>
+    <div class="lesson_item">
+        <div class="lesson_item_title">
+            <img class="more" src="images/circle.png">
+            <a name="kinematiks"></a>
+            <h2 class="title_lesson">Кинематика</h2>
+        </div>
+        <iframe class="lesson_video" width="560" height="315" src="https://www.youtube.com/embed/2JGbRnJfG0g"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        <div class="lesson_text">
+            <img id="kinematika1_1" src="images/kinematika1_1.png">
+            <img id="kinematika1_2.1" src="images/kinematika1_2.1.png">
+            <img id="kinematika1_2.2" src="images/kinematika1_2.2.png">
+            <img id="kinematika2_1" src="images/kinematika2_1.png">
+            <img id="kinematika2_2" src="images/kinematika2_2.png">
+            <img id="kinematika3_1" src="images/kinematika3_1.png">
+            <img id="kinematika3_2" src="images/kinematika3_2.png">
+        </div>
+    </div>
+
+    <div class="lesson_item">
+        <div class="lesson_item_title">
+            <img class="more" src="images/circle.png">
+            <a name="dinamika"></a>
+            <h2 class="title_lesson">Динамика</h2>
+        </div>
+        <iframe class="lesson_video" width="560" height="315" src="https://www.youtube.com/embed/2JGbRnJfG0g"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        <div class="lesson_text">
+            <img id="dinamika1" src="images/dinamika1_1.png">
+            <img id="dinamika1" src="images/dinamika1_2.png">
+            <img id="dinamika1" src="images/dinamika2_1.png">
+            <img id="dinamika1" src="images/dinamika2_2.png">
+            <img id="dinamika1" src="images/dinamika2_3.png">
+        </div>
+    </div>
+
+
 </div>
 </body>
 </html>
