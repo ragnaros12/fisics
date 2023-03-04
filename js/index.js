@@ -58,11 +58,4 @@ function onChange_temp(){
     document.getElementById("result_temp").value = result;
 }
 
-window.onload = function (){
-    document.getElementById("lesson_dropdown_container").onmouseover = function (){
-        document.getElementById("lesson_dropdown").style.display = "flex";
-    }
-    document.getElementById("lesson_dropdown_container").onmouseout = function (){
-        document.getElementById("lesson_dropdown").style.display = "none";
-    }
-}
+

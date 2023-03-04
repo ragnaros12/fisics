@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5a302c0-1785-432c-9630-335d8db37210" name="Changes" comment="Четвертый урок(Сделали базово страницу Уроки)">
-      <change afterPath="$PROJECT_DIR$/images/menu.png" afterDir="false" />
+    <list default="true" id="d5a302c0-1785-432c-9630-335d8db37210" name="Changes" comment="Пятый урок(Сделали выпадающий список тем, а так же адапитровали все кроме футера)">
+      <change afterPath="$PROJECT_DIR$/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/base.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/formuls.html" beforeDir="false" afterPath="$PROJECT_DIR$/formuls.html" afterDir="false" />
@@ -77,7 +78,12 @@
       <workItem from="1677078233751" duration="4878000" />
       <workItem from="1677164470800" duration="4061000" />
       <workItem from="1677423518471" duration="4878000" />
-      <workItem from="1677596353600" duration="3283000" />
+      <workItem from="1677596353600" duration="4071000" />
+      <workItem from="1677610774705" duration="3000" />
+      <workItem from="1677752004757" duration="39000" />
+      <workItem from="1677941974706" duration="798000" />
+      <workItem from="1677942777077" duration="1783000" />
+      <workItem from="1677944669866" duration="506000" />
     </task>
     <task id="LOCAL-00001" summary="Второй урок(почти доделали Главную страницу)">
       <created>1677082254222</created>
@@ -100,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677427216101</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Пятый урок(Сделали выпадающий список тем, а так же адапитровали все кроме футера)">
+      <created>1677599772801</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677599772801</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +123,7 @@
     <MESSAGE value="Второй урок(почти доделали Главную страницу)" />
     <MESSAGE value="Третий урок(Сделали страницу формулы)" />
     <MESSAGE value="Четвертый урок(Сделали базово страницу Уроки)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Четвертый урок(Сделали базово страницу Уроки)" />
+    <MESSAGE value="Пятый урок(Сделали выпадающий список тем, а так же адапитровали все кроме футера)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Пятый урок(Сделали выпадающий список тем, а так же адапитровали все кроме футера)" />
   </component>
 </project>

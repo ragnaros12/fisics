@@ -5,9 +5,19 @@
     <title>Уроки</title>
     <link type="text/css" rel="stylesheet" href="css/index.css">
     <link type="text/css" rel="stylesheet" href="css/formuls.css">
+    <script type="text/javascript" src="js/base.js"></script>
     <script type="text/javascript" src="js/lessons.js"></script>
+
 </head>
 <body>
+<div class="modal_nav" id="modal_nav">
+    <img src="images/close.png" id="close"/>
+    <div class="modal_nav_wrapper">
+        <a class="header_link header_mobile_link" href="./index.html">Главная</a>
+        <a class="header_link header_mobile_link" href="./lessons.html">Уроки</a>
+        <a class="header_link header_mobile_link" href="./formuls.html">Формулы</a>
+    </div>
+</div>
 <div class="container main">
     <div class="header">
         <img src="images/logo.png" class="logo">
@@ -45,13 +55,18 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         <div class="lesson_text">
-            <img id="kinematika1_1" src="images/kinematika1_1.png">
-            <img id="kinematika1_2.1" src="images/kinematika1_2.1.png">
-            <img id="kinematika1_2.2" src="images/kinematika1_2.2.png">
-            <img id="kinematika2_1" src="images/kinematika2_1.png">
-            <img id="kinematika2_2" src="images/kinematika2_2.png">
-            <img id="kinematika3_1" src="images/kinematika3_1.png">
-            <img id="kinematika3_2" src="images/kinematika3_2.png">
+            <div class="text_item_container">
+                <div class="text_item"><h4 class="text_item_title">Механика</h4><p> - раздел физики, изучающий механическое движение.</p></div>
+                <div class="text_item"><h4 class="text_item_title">Механическое движение</h4><p> - это изменение положения тела в пространстве относительно других тел с течением времени.</p></div>
+                <div class="text_item"><h4 class="text_item_title">Кинематика</h4><p> - раздел механики, изучающий геометрические характеристики механического движения.</p></div>
+            </div>
+            <div class="text_item_container">
+                <div class="text_item"><h4 class="text_item_title">Траектория</h4><p> - линия, которую описывает тело при своем движении.</p></div>
+                <div class="text_item"><h4 class="text_item_title">Путь</h4><p> - длина траектории.</p></div>
+                <div class="text_item"><h4 class="text_item_title">Перемещение</h4><p> - направленный отрезок (вектор), соединяющий начальное и конечное
+                    положения тела при его движении.</p></div>
+            </div>
+            <p>Механическое движение всегда рассматривают относительно некоторой системы отчета, которая позволяет определить характеристики этого движения.</p>
         </div>
     </div>
 
