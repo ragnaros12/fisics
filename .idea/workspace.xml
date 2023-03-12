@@ -4,15 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5a302c0-1785-432c-9630-335d8db37210" name="Changes" comment="Пятый урок(Сделали выпадающий список тем, а так же адапитровали все кроме футера)">
-      <change afterPath="$PROJECT_DIR$/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/base.js" afterDir="false" />
+    <list default="true" id="d5a302c0-1785-432c-9630-335d8db37210" name="Changes" comment="Шестое урок(Закончили адаптацию под мобильные ус-ва. Базово составили идею для конспектов)">
+      <change afterPath="$PROJECT_DIR$/images/icon_down.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/formuls.html" beforeDir="false" afterPath="$PROJECT_DIR$/formuls.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dinamika1_1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dinamika1_2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dinamika2_1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dinamika2_2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dinamika2_3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kinematika1_1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kinematika1_2.1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kinematika1_2.2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kinematika2_1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kinematika2_2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kinematika3_1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kinematika3_2.PNG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lessons.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lessons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons.html" beforeDir="false" afterPath="$PROJECT_DIR$/lessons.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +92,8 @@
       <workItem from="1677752004757" duration="39000" />
       <workItem from="1677941974706" duration="798000" />
       <workItem from="1677942777077" duration="1783000" />
-      <workItem from="1677944669866" duration="506000" />
+      <workItem from="1677944669866" duration="799000" />
+      <workItem from="1678633146122" duration="2960000" />
     </task>
     <task id="LOCAL-00001" summary="Второй урок(почти доделали Главную страницу)">
       <created>1677082254222</created>
@@ -113,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677599772801</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Шестое урок(Закончили адаптацию под мобильные ус-ва. Базово составили идею для конспектов)">
+      <created>1677945263921</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677945263921</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +141,7 @@
     <MESSAGE value="Третий урок(Сделали страницу формулы)" />
     <MESSAGE value="Четвертый урок(Сделали базово страницу Уроки)" />
     <MESSAGE value="Пятый урок(Сделали выпадающий список тем, а так же адапитровали все кроме футера)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Пятый урок(Сделали выпадающий список тем, а так же адапитровали все кроме футера)" />
+    <MESSAGE value="Шестое урок(Закончили адаптацию под мобильные ус-ва. Базово составили идею для конспектов)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Шестое урок(Закончили адаптацию под мобильные ус-ва. Базово составили идею для конспектов)" />
   </component>
 </project>

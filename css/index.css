@@ -1,10 +1,12 @@
 * {
     margin: 0;
+    scroll-behavior: smooth;
     padding: 0;
 }
 
 body {
     background: url("../images/background.jpeg") repeat center center;
+
 }
 
 h1 {
@@ -81,8 +83,33 @@ h1 {
     width: 70px;
     height: 70px;
     margin-left: auto;
+    display: flex;
+    cursor: pointer;
+    border-radius: 50%;
+    background: #EDC9C9;
     margin-right: auto;
+    animation: pulse 1.5s infinite;
     margin-bottom: 30px;
+}
+
+
+@keyframes pulse {
+    0%{
+        transform: scale(1);
+        box-shadow: 0 0 0 0 #EDC9C9;
+    }
+    33%{
+        transform: scale(1.4);
+        box-shadow: 0 0 0 3px #EDC9C9;
+    }
+    66%{
+        transform: scale(1.2);
+        box-shadow: 0 0 0 3px #EDC9C9;
+    }
+    100%{
+        transform: scale(1);
+        box-shadow: 0 0 0 0 #EDC9C9;
+    }
 }
 
 h2 {
@@ -498,13 +525,49 @@ input, select {
 .text_item_title{
     margin: 0;
 }
+.lesson_item p{
+    margin-top: 10px;
+    text-align: center;
+}
 .text_item p{
     margin-top: auto;
     margin-bottom: auto;
 }
 .text_item_container{
-    margin-left: 10px;
     margin-top: 10px;
     padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
     border: 1px solid black;
+}
+.table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    text-align: center;
+    border-spacing: 2px;
+}
+th, td, tr{
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+caption{
+    font-size: 30px;
+}
+.ths_non_line th{
+    border: none;
+}
+.centered{
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+}
+.sub-title{
+    font-size: 30px;
+}
+.h4_centered h4{
+    margin-left: auto;
+    font-size: 30px;
+    margin-right: auto;
 }
