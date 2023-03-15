@@ -76,6 +76,9 @@ h1 {
 
 .subtitle {
     margin-top: 20px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
@@ -162,8 +165,8 @@ h2 {
 }
 
 .teacher-item {
-    width: 400px;
-    height: 700px;
+    width: 350px;
+    height: 600px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -175,17 +178,17 @@ h2 {
 }
 
 .teacher-item-image {
-    width: 400px;
+    width: 250px;
     margin: 0 auto;
 }
 
 h3 {
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
 }
 
 h4 {
-    font-size: 22px;
+    font-size: 18px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 20px;
@@ -390,6 +393,8 @@ input, select {
     background: antiquewhite;
     margin-bottom: 20px;
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
     overflow: hidden;
     margin-left: auto;
@@ -418,7 +423,9 @@ input, select {
 }
 
 .lesson_video {
-    margin-left: 20px;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-right: auto;
 }
 
 .lesson_text {
@@ -461,6 +468,7 @@ input, select {
     overflow: hidden;
     z-index: 1000;
 }
+
 .modal_nav_show{
     height: 100vh;
     transition: all .6s;
@@ -570,4 +578,12 @@ caption{
     margin-left: auto;
     font-size: 30px;
     margin-right: auto;
+}
+.small_img{
+    width: 150px!important;
+    margin-left: 40px;
+}
+.small_img1{
+    width: 500px!important;
+    margin-left: 40px;
 }
